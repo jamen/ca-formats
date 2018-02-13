@@ -1,0 +1,6 @@
+
+{
+  "rle": [ ".rle" ],
+  "life": [ ".lif", ".life" ],
+  "plain": [ ".cells", ".txt" ]
+}

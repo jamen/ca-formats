@@ -1,0 +1,13 @@
+{
+  "name": "ca-formats",
+  "version": "1.0.0",
+  "author": "Jamen Marz (http://jamenmarz.com)",
+  "license": "MIT",
+  "main": "./lib/decode.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
