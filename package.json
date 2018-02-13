@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "./lib/decode.js",
   "scripts": {
-    "test": "node test"
+    "test": "tape 'test/*.js'"
   },
   "devDependencies": {
     "tape": "^4.8.0"
