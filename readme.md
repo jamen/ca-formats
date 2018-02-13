@@ -27,4 +27,7 @@ decode.rle('b2o$2ob$bo!')
 // [ 1, 0, 2, 0, 0, 1, 1, 1, 1, 2 ]
 ```
 
-See [`test/`](test/) for more examples.
+See [`test/`][2] for more examples.
+
+[1]: https://en.wikipedia.org/wiki/Cellular_automaton
+[2]: test/
