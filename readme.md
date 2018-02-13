@@ -11,7 +11,20 @@ npm i ca-formats
 
 ## Usage
 
-### `decode(str, type?) -> cells`
+### `decode.rle(str) -> cells`
 
-- `str` is the source string to decode
-- `type` is which format you are decoding.  defaults to rle. 
+### `decode.life(str) -> cells`
+
+### `decode.plain(str) -> cells`
+
+Decodes a string of the given type into an array of interlaced cells.
+
+```js
+decode.plain('.OO\nOO\n.O')
+// [ 1, 0, 2, 0, 0, 1, 1, 1, 1, 2 ]
+
+decode.rle('b2o$2ob$bo!')
+// [ 1, 0, 2, 0, 0, 1, 1, 1, 1, 2 ]
+```
+
+See [`test/`](test/) for more examples.
