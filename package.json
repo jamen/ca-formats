@@ -1,5 +1,6 @@
 {
   "name": "ca-formats",
+  "description": "Decodes cellular automata formats to [x1, y1, ..., xn, yn] values.",
   "version": "0.0.0",
   "author": "Jamen Marz (http://jamenmarz.com)",
   "license": "MIT",
